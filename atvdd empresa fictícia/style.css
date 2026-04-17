@@ -1,0 +1,115 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0a0a0a;
+  color: white;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background: black;
+}
+
+nav a {
+  margin: 10px;
+  color: cyan;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: white;
+}
+
+.hero {
+  text-align: center;
+  padding: 120px 20px;
+  background: linear-gradient(120deg, #000, #001f1f, #0ff);
+}
+
+.hero h2 {
+  font-size: 40px;
+}
+
+.hero button {
+  padding: 15px 30px;
+  border: none;
+  background: cyan;
+  color: black;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.hero button:hover {
+  background: white;
+}
+
+section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card {
+  background: #111;
+  padding: 20px;
+  border-radius: 15px;
+  width: 220px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 0 20px cyan;
+}
+
+ul {
+  list-style: none;
+
+  padding: 0;
+}
+
+.depoimentos {
+  margin-top: 20px;
+  font-style: italic;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: auto;
+}
+
+form input, form textarea {
+  margin: 10px;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+}
+
+form button {
+  padding: 12px;
+  background: cyan;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+footer {
+  background: black;
+  text-align: center;
+  padding: 20px;
+}
+

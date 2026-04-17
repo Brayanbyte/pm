@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Orion Grand Hotels</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+<header>
+  <h1>Orion Grand Hotels International</h1>
+  <nav>
+
+    <a href="#sobre">Sobre</a>
+    <a href="#servicos">Serviços</a>
+    <a href="#historia">História</a>
+    <a href="#contato">Contato</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h2>Hospedagem de Luxo em Qualquer Lugar do Mundo</h2>
+  <p>Conectando culturas com conforto, sofisticação e experiências inesquecíveis</p>
+  <button onclick="scrollToContato()">🌎 Reserve sua Experiência</button>
+</section>
+
+<section id="sobre">
+  <h2>Sobre a Empresa</h2>
+  <p>
+    A Orion Grand Hotels International é uma rede multinacional fictícia de hotéis de luxo, presente em mais de 30 países. 
+    Reconhecida por sua excelência em hospitalidade, oferece experiências únicas que combinam conforto, cultura local e inovação.
+  </p>
+</section>
+
+<section id="servicos">
+  <h2>Serviços</h2>
+  <div class="cards">
+    <div class="card">🛏️ Hospedagem Internacional</div>
+    <div class="card">🌍 Experiências Exclusivas</div>
+    <div class="card">🏢 Centro de Convenções</div>
+    <div class="card">🍽️ Gastronomia Internacional</div>
+
+
+  </div>
+</section>
+
+<section id="diferenciais">
+  <h2>Diferenciais</h2>
+  <ul>
+    <li>✔ Padrão internacional de qualidade</li>
+    <li>✔ Experiência personalizada</li>
+    <li>✔ Tecnologia avançada</li>
+    <li>✔ Programa de fidelidade</li>
+  </ul>
+
+  <div class="depoimentos">
+    <h2>feedback de famosos</h2>
+    <p>“Viajo o mundo todo e a Orion sempre entrega excelência.”</p>
+    <span>- Dwayne Johnson</span>
+
+    <p>“Atendimento impecável e qualidade global.”</p>
+    <span>- Neymar da Silva </span>
+  </div>
+</section>
+
+<section id="historia">
+  <h2>História</h2>
+  <p>
+    Fundada em 2008, em Londres, a Orion Grand Hotels iniciou com foco em viajantes corporativos e hoje é referência global em hotelaria de luxo.
+  </p>
+</section>
+
+<section id="contato">
+  <h2>Contato</h2>
+  <form onsubmit="enviarMensagem(event)">
+    <input type="text" placeholder="Seu nome" required>
+    <input type="email" placeholder="Seu email" required>
+    <textarea placeholder="Mensagem"></textarea>
+    <button type="submit">Enviar</button>
+  </form>
+
+  <div class="info">
+    <p>📍 São Paulo, BR</p>
+    <p>📞 +55 12 98220-2923</p>
+    <p>📧 global@oriongrandhotels.com</p>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 Orion Grand Hotels International</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
