@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Loja - Orion Grand Hotels</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<header>
+  <h1>Orion Grand Hotels International</h1>
+  <nav>
+    <a href="empresa.html">Voltar ao Site</a>
+    <a href="#loja">Loja</a>
+    <div class="carrinho-icon" onclick="toggleCarrinho()">
+      🛒 <span id="carrinho-contador" class="contador">0</span>
+    </div>
+  </nav>
+</header>
+
+
+
+<div id="carrinho-modal" class="carrinho-modal">
+  <div class="carrinho-conteudo">
+    <div class="carrinho-header">
+      <h3>Seu Carrinho</h3>
+      <span class="fechar-carrinho" onclick="toggleCarrinho()">&times;</span>
+    </div>
+    <div id="carrinho-itens" class="carrinho-itens">
+      <p class="carrinho-vazio">Seu carrinho está vazio</p>
+    </div>
+    <div class="carrinho-footer">
+      <div class="carrinho-total">
+        <strong>Total:</strong> <span id="carrinho-total">R$ 0,00</span>
+      </div>
+      <button class="btn-finalizar" onclick="finalizarCompra()">Finalizar Compra</button>
+    </div>
+  </div>
+</div>
+
+
+<section id="loja">
+  <h2>Loja</h2>
+  <p>Leve a experiência Orion Grand Hotels para a sua casa</p>
+  <div class="produtos">
+    <div class="produto">
+      <img src="https://images.yampi.me/assets/stores/donadacasaenxoval/uploads/images/roupao-de-banho-felpudo-100-algodao-hipoalergico-tamanho-unico-branco-636fafebf3f88-large.jpg" alt="Roupão de Banho">
+      <h3>Roupão de Banho Orion</h3>
+      <p>Roupão de algodão egípcio 600 fios, conforto de hotel em casa.</p>
+      <span class="preco">R$ 499,00</span>
+      <button onclick="adicionarAoCarrinho('Roupão de Banho Orion', 499)">Adicionar ao Carrinho</button>
+    </div>
+    <div class="produto">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRy1thdJ2giaghugNd2CX3yONbOGCSKL0zuMg&s" alt="Kit Amenities">
+      <h3>Kit Amenities Luxo</h3>
+      <p>Shampoo, condicionador e loção corporal com fragrância exclusiva.</p>
+      <span class="preco">R$ 190,00</span>
+      <button onclick="adicionarAoCarrinho('Kit Amenities Luxo', 299)">Adicionar ao Carrinho</button>
+    </div>
+    <div class="produto">
+      <img src="https://images.tcdn.com.br/img/img_prod/1345462/kit_com_2_travesseiros_espuma_orion_soft_conforto_estelar_491_2_0d3a0c38d0ddf377d7630a9c90fc270b.jpg" alt="Travesseiro">
+      <h3>Travesseiro Orion Comfort</h3>
+      <p>Travesseiro viscoelástico com tecnologia de memória e capa de seda.</p>
+      <span class="preco">R$ 89,99</span>
+      <button onclick="adicionarAoCarrinho('Travesseiro Orion Comfort', 899)">Adicionar ao Carrinho</button>
+    </div>
+    <div class="produto">
+      <img src="https://cdn.awsli.com.br/600x1000/2730/2730290/produto/273036014/toalha-de-banho--grande--macia--grossa--na-promo-o-e-com-desconto-no-pix--58--rvimf10dot.jpg" alt="Toalha de Banho">
+      <h3>Toalha de Banho Premium</h3>
+      <p>Toalha grande em algodão turco, maciez e absorção incomparáveis.</p>
+      <span class="preco">R$ 150,00</span>
+      <button onclick="adicionarAoCarrinho('Toalha de Banho Premium', 199)">Adicionar ao Carrinho</button>
+    </div>
+    <div class="produto">
+      <img src="https://orionperfumaria.com.br/wp-content/uploads/2025/08/BANNERS-PRODUTOS-ORIOM-PERFUMARIA-8.jpg" alt="Difusor de Aromas">
+      <h3>Difusor de Aromas Orion</h3>
+      <p>Ambientador com essência exclusiva dos nossos quartos de luxo.</p>
+      <span class="preco">R$ 60,00</span>
+      <button onclick="adicionarAoCarrinho('Difusor de Aromas Orion', 349)">Adicionar ao Carrinho</button>
+    </div>
+    <div class="produto">
+      <img src="https://qpix.com.br/wp-content/uploads/2019/04/Mug_01.jpg" alt="Caneca Edição Limitada">
+      <h3>Caneca Edição Limitada</h3>
+      <p>Caneca de porcelana fina com design exclusivo Orion Grand Hotels.</p>
+      <span class="preco">R$ 129,00</span>
+      <button onclick="adicionarAoCarrinho('Caneca Edição Limitada', 129)">Adicionar ao Carrinho</button>
+    </div>
+  </div>
+</section>
+
+
+<footer>
+  <p>© 2026 Orion Grand Hotels International</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
+
