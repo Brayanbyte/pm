@@ -1,11 +1,83 @@
-# Sample Snack app
+# APP Scholar
 
-Open the `App.js` file to start writing some code. You can preview the changes directly on your phone or tablet by scanning the **QR code** or use the iOS or Android emulators. When you're done, click **Save** and share the link!
+## Sobre o projeto
+O APP Scholar é uma aplicação destinada ao gerenciamento acadêmico mobile. O sistema realiza o controle de rotinas escolares permitindo o cadastro e a consulta ágil de alunos, professores, cursos, disciplinas, turmas, matrículas, avaliações e boletins.
 
-When you're ready to see everything that Expo provides (or if you want to use your own editor) you can **Download** your project and use it with [expo cli](https://docs.expo.dev/get-started/installation/#expo-cli)).
+## Funcionalidades
+- Cadastro de alunos, professores, coordenadores, cursos, disciplinas e turmas
+- Registro de matrículas, telefones e endereços
+- Lançamento de avaliações e boletins acadêmicos
+- Consulta de registros com filtro de busca por nome, sala ou ID
+- Navegação estruturada entre telas de cadastro e relatórios
+- Visualização de estatísticas gerais do sistema na tela institucional
 
-All projects created in Snack are publicly available, so you can easily share the link to this project via link, or embed it on a web page with the `<>` button.
+## Tecnologias utilizadas
+- React Native
+- JavaScript
+- Expo
+- React Navigation
+- Git
+- GitHub
 
-If you're having problems, you can tweet to us [@expo](https://twitter.com/expo) or ask in our [forums](https://forums.expo.dev/c/expo-dev-tools/61) or [Discord](https://chat.expo.dev/).
+## Estrutura do projeto
+escolaapp/
+├── assets/
+├── components/
+├── escolaAPP/
+│   ├── CadastroAluno.js
+│   ├── CadastroAvaliacao.js
+│   ├── CadastroBairro.js
+│   ├── CadastroBoletim.js
+│   ├── CadastroCidade.js
+│   ├── CadastroCoordenador.js
+│   ├── CadastroCurso.js
+│   ├── CadastroDisciplina.js
+│   ├── CadastroEstado.js
+│   ├── CadastroMatricula.js
+│   ├── CadastroProfessor.js
+│   ├── CadastroResponsavel.js
+│   ├── CadastroRua.js
+│   ├── CadastroTelefone.js
+│   ├── CadastroTurma.js
+│   ├── ConsultarAlunos.js
+│   ├── ConsultarAvaliacoes.js
+│   ├── ConsultarBairros.js
+│   ├── ConsultarBoletins.js
+│   ├── ConsultarCidades.js
+│   ├── ConsultarCoordenadores.js
+│   ├── ConsultarCursos.js
+│   ├── ConsultarDisciplinas.js
+│   ├── ConsultarEstados.js
+│   ├── ConsultarMatriculas.js
+│   ├── ConsultarProfessores.js
+│   ├── ConsultarResponsaveis.js
+│   ├── ConsultarRuas.js
+│   ├── ConsultarTelefones.js
+│   ├── ConsultarTurmas.js
+│   ├── Home.js
+│   ├── Menu.js
+│   ├── PY.js
+│   ├── Sobre.js
+│   └── theme.js
+├── App.js
+├── app.json
+├── index.js
+├── package.json
+└── .gitignore
 
-Snack is Open Source. You can find the code on the [GitHub repo](https://github.com/expo/snack).
+## Como executar
+1. Clone o repositório.
+2. Acesse a pasta do projeto.
+3. Instale as dependências.
+4. Execute a aplicação.
+
+```bash
+git clone https://github.com
+cd escolaapp
+npm install
+npm start
+```
+
+autor:Brayan Henrique Dos Santos Ramos
+Curso: Desenvolvimento de Sistemas  
+Unidade: São José dos Campos  
