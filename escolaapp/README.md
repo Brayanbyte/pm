@@ -1,15 +1,15 @@
 # APP Scholar
 
 ## Sobre o projeto
-O APP Scholar é uma aplicação destinada ao gerenciamento acadêmico mobile. O sistema realiza o controle de rotinas escolares permitindo o cadastro e a consulta ágil de alunos, professores, cursos, disciplinas, turmas, matrículas, avaliações e boletins.
+O APP Scholar é uma aplicação destinada ao gerenciamento acadêmico mobile. O sistema realiza o controle de rotinas escolares permitindo o cadastro e a consulta ágil de dados integrados ao banco de dados MySQL via API externa.
 
 ## Funcionalidades
 - Cadastro de alunos, professores, coordenadores, cursos, disciplinas e turmas
-- Registro de matrículas, telefones e endereços
+- Registro de matrículas, telefones e endereços estruturados
 - Lançamento de avaliações e boletins acadêmicos
-- Consulta de registros com filtro de busca por nome, sala ou ID
-- Navegação estruturada entre telas de cadastro e relatórios
-- Visualização de estatísticas gerais do sistema na tela institucional
+- Consulta de registros com consumo de dados de servidor externo (MySQL)
+- Navegação estruturada entre telas de cadastro, relatórios e menus
+- Filtros de busca dinâmica integrados por nome, sala ou ID
 
 ## Tecnologias utilizadas
 - React Native
@@ -24,6 +24,7 @@ escolaapp/
 ├── assets/
 ├── components/
 ├── escolaAPP/
+│   ├── api/
 │   ├── CadastroAluno.js
 │   ├── CadastroAvaliacao.js
 │   ├── CadastroBairro.js
@@ -78,6 +79,6 @@ npm install
 npm start
 ```
 
-autor:Brayan Henrique Dos Santos Ramos
+Autor: Brayan Henrique Dos Santos Ramos
 Curso: Desenvolvimento de Sistemas  
 Unidade: São José dos Campos  
